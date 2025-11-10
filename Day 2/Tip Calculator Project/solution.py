@@ -16,8 +16,11 @@ people = int(input("How many people to split the bill? "))
 #Total amount after bill splitting
 people= tip/people
 
-#print the output and rounding it with 2 decimal points
-print(round(people,2))
+#Final amount to be paid among people with 2 decimal points
+final_amount= round(people,2))
+
+#Print the message on screen on how much each person should pay
+print(f"The amount each person should pay is {final_amount} $ " )
 
 
 

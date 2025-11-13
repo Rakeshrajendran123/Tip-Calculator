@@ -4,7 +4,7 @@ print(" Welcome to rollercoaster ride ")
 #Ask the user to input the height
 height= int(input(" Enter your height: "))
 
-# Use if/elif/else condition to check for height and then check for age in multiple brackets
+# Use if/elif/else condition to check for height and then check for age in multiple age brackets
 if height >= 120:
     print(" You are eligible to ride ")
     age = int(input(" Enter your age: "))

@@ -4,6 +4,7 @@ pizza_size=input("What pizza size do you want? S for Small, M for Medium and L f
 pepperoni=input("Do you want Pepperoni for medium or large Pizza(Y or N)? : ")
 cheese = input("Do you want to add extra cheese(Y or N )?: ")
 
+#Initialize Pizzacost
 pizza_cost=0
 
 #Pizza cost based on size

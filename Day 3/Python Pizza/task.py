@@ -9,9 +9,9 @@ pizza_cost=0
 
 #Pizza cost based on size
 
-if pizza_size=="S":
+if pizza_size == "S":
     pizza_cost += 15
-elif pizza_size =="M":
+elif pizza_size == "M":
     pizza_cost +=20
 elif pizza_size == "L":
     pizza_cost += 25
@@ -19,14 +19,14 @@ else:
     print("You have invalid size")
 
 #Add pepperoni cost to pizza cost
-if pepperoni=="Y":
-     if pizza_size=="S":
+if pepperoni == "Y":
+     if pizza_size == "S":
          pizza_cost +=2
      else:
          pizza_cost +=3
 
 #Add Chesse Cost to pizza cost
-if cheese=="Y":
+if cheese == "Y":
         pizza_cost +=1
 
 # Print total cost of Pizza based on choices user made

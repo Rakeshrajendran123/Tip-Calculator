@@ -17,14 +17,14 @@ elif pizza_size == "L":
 else:
     print("You have invalid size")
 
-#Now lets look at pepperoni cost
+#Add pepperoni cost to pizza cost
 if pepperoni=="Y":
      if pizza_size=="S":
          pizza_cost +=2
      else:
          pizza_cost +=3
 
-
+#Add Chesse Cost to pizza cost
 if cheese=="Y":
         pizza_cost +=1
 

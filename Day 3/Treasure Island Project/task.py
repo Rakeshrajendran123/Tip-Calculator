@@ -23,39 +23,25 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 Direction= input("Do you want to go left or right ? ").lower()
+
 if Direction == "left":
     Swim_wait = input("Do you want to swim or wait ? ").lower()
+
     if Swim_wait == "wait":
         Door_colour = input("Which door you want to go ? Red , blue, Yellow or anything else ? ").lower()
-        if Door_colour == "Yellow":
-          print("You win")
-        elif Door_colour == "Red":
-               print("Burned by Fire. Game over")
-        elif Door_colour == "Blue":
-                print("Eaten by Beast. Game Over")
+
+        if Door_colour == "yellow":
+          print("You found the treasure.You won")
+        elif Door_colour == "red":
+          print("Burned by Fire. Game over")
+        elif Door_colour == "blue":
+          print("Eaten by Beast. Game Over")
         else:
+            print("This door doesn't exist .Game over")
+    else:
          print("Attacked by Trout.Game over")
 else:
       print("Fall into Hole.Game over")
 
-if Swim_wait == "wait":
-       print("Wait")
-else:
-     print("Attacked by Trout.Game over")
 
-# if Direction == "left":
-#     print("Go left")
-#     if Swim_wait == "wait":
-#         print("Wait")
-#     else:
-#         print("Attacked by Trout.Game over")
-#         if Door_colour=="Yellow":
-#             print("You win")
-#         elif Door_colour == "Red":
-#             print("Burned by Fire. Game over")
-#         elif Door_colour == "Blue":
-#             print("Eaten by Beast. Game Over")
-#         else:
-#             print("Game Over")
-# else:
-#     print("Fall into Hole.Game over")
+

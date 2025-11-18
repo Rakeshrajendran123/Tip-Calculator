@@ -43,19 +43,3 @@ if Swim_wait == "wait":
 else:
      print("Attacked by Trout.Game over")
 
-# if Direction == "left":
-#     print("Go left")
-#     if Swim_wait == "wait":
-#         print("Wait")
-#     else:
-#         print("Attacked by Trout.Game over")
-#         if Door_colour=="Yellow":
-#             print("You win")
-#         elif Door_colour == "Red":
-#             print("Burned by Fire. Game over")
-#         elif Door_colour == "Blue":
-#             print("Eaten by Beast. Game Over")
-#         else:
-#             print("Game Over")
-# else:
-#     print("Fall into Hole.Game over")

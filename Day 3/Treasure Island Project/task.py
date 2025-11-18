@@ -27,19 +27,15 @@ if Direction == "left":
     Swim_wait = input("Do you want to swim or wait ? ").lower()
     if Swim_wait == "wait":
         Door_colour = input("Which door you want to go ? Red , blue, Yellow or anything else ? ").lower()
-        if Door_colour == "Yellow":
+        if Door_colour == "yellow":
           print("You win")
-        elif Door_colour == "Red":
+        elif Door_colour == "red":
                print("Burned by Fire. Game over")
-        elif Door_colour == "Blue":
+        elif Door_colour == "blue":
                 print("Eaten by Beast. Game Over")
         else:
          print("Attacked by Trout.Game over")
 else:
       print("Fall into Hole.Game over")
 
-if Swim_wait == "wait":
-       print("Wait")
-else:
-     print("Attacked by Trout.Game over")
 
